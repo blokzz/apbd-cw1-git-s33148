@@ -18,14 +18,14 @@ class Program
         }
     }
 
-    public static int CalculateAverage(int[] numbers)
+    public static int CalculateAverage(int[] inputData)
     {   
-        if(numbers==null||numbers.Length == 0)
+        if(inputData == null || inputData.Length == 0)
         {
             return 0;
         }
 
-        return (int)numbers.Average(); 
+        return (int)inputData.Average(); 
         
     }
     public static int CalculateMax(int[] numbers)
