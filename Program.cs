@@ -39,6 +39,10 @@ class Program
 
     public static int CalculateMin(int[] numbers)
     {
+        if(numbers==null||numbers.Length == 0)
+        {
+            return 0;
+        }
         return numbers.Min();
     }
 }
