@@ -7,5 +7,7 @@ class Program
         HashSet<int> set = new HashSet<int>();
         set.Add(1);
         set.Add(2);
+
+        Student student = new Student("kamil", 100);
     }
 }
