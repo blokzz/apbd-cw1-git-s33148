@@ -27,4 +27,8 @@ class Program
         return (int)numbers.Average(); 
         
     }
+    public static int CalculateMax(int[] numbers)
+    {
+        return numbers.Max();
+    }
 }
