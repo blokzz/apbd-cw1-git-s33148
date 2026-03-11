@@ -30,6 +30,10 @@ class Program
     }
     public static int CalculateMax(int[] numbers)
     {
+        if(numbers==null||numbers.Length == 0)
+        {
+            return 0;
+        }
         return numbers.Max();
     }
 }
