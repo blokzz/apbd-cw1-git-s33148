@@ -36,4 +36,9 @@ class Program
         }
         return numbers.Max();
     }
+
+    public static int CalculateMin(int[] numbers)
+    {
+        return numbers.Min();
+    }
 }
