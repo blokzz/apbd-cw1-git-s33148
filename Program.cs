@@ -18,10 +18,13 @@ class Program
     }
 
     public static int CalculateAverage(int[] numbers)
-    {
-        int avg = 0;
-        
-        return avg = (int)numbers.Average(); 
+    {   
+        if(numbers==null||numbers.Length == 0)
+        {
+            return 0;
+        }
+
+        return (int)numbers.Average(); 
         
     }
 }
