@@ -9,5 +9,10 @@ class Program
         set.Add(2);
 
         Student student = new Student("kamil", 100);
+
+        foreach (int item in set)
+        {
+         Console.WriteLine(item);   
+        }
     }
 }
