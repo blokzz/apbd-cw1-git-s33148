@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Moj Program");
         Console.WriteLine(CalculateAverage([1,2,2,1]));
         HashSet<int> set = new HashSet<int>();
         set.Add(1);
